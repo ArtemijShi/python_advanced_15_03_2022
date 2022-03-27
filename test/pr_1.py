@@ -25,7 +25,7 @@ def countdown_2(num):
 gen = countdown_2(5)
 print(next(gen))
 print(next(gen))
-print(next(gen))
+#print(next(gen))
 print(next(gen))
 print(next(gen))
 
