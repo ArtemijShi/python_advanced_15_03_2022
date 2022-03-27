@@ -61,8 +61,8 @@ print(sys.getsizeof(gen))
 # print()
 print('//'*40)
 
-some_list_new1 = [value for value in range(10**8) if value % 2 == 0]
+some_list_new1 = [value for value in range(100) if value % 2 == 0]
 print(sys.getsizeof(some_list_new1))
 
-gen1 = (value for value in range(10**8) if value % 2 == 0)
+gen1 = (value for value in range(100) if value % 2 == 0)
 print(sys.getsizeof(gen1))
